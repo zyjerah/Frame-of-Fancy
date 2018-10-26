@@ -1,4 +1,4 @@
-### [This paper]
+# [This paper]
 
 Artificial Intelligence is an increasingly relevant topic and though we tend to focus on the technical advantages of it, I am incredibly interested in the artistic application of machine learning techniques. As such, I have set out to combine Artificial Intelligence and photography as art, and have created a machine learning technique to achieve this.
 
@@ -6,7 +6,7 @@ The artistic approach I took involved the inclusion of a photo frame as a prop. 
 
 Pipeline diagram
 
-# Image Segmentation
+### Image Segmentation
 
 To train a model to recognize the photo frame, I first had to take around 150 photos including the frame. To stay consistent I kept it one exact photo frame, at roughly the same distance from the camera in each photo, around the same time of day as to keep the lighting and contrast consistent also. To avoid too much consistency however, I made sure to keep 
 the contents of the frame vary in significant ways, as well as whether or not people were in the photo, holding the frame, or wearing the same clothing. Both consistency and variability play an important role in keeping the training both accurate and reliable.
@@ -15,7 +15,7 @@ Having taken these photos I used VGG Image Annotator^1 to label the frame and it
 
 fig .1 VGG screenshot
 
-# Style Transfer
+### Style Transfer
 
 I used a pre-trained form of Neural Style Transfer^3  to transform the inside of the frame. I found a model that takes in a mask as well as input and style image, to only stylize the white portion of the mask and leave the rest as the original input. With the models in a working pipeline all that is left is to find suitable input and style images.
 
@@ -23,7 +23,7 @@ Initially I had some trouble with messy outputs which I thought was the fault of
 
 Photos of failures vs working
 
-# Conclusion
+### Conclusion
 
 Machine learning is a powerful tool in almost any context, and it aids art and design just as much. Bringing it into the tangible realm proved an interesting technique that I hope to see others use in the future. Specificity is important in training an image segmentation model as well as staying consistent in your dataset. Understanding the AI models you are working with will also aid in creating art using machine learning, and working with the strengths of your models will create better results.
 
@@ -32,7 +32,7 @@ This technique is an interesting entrance into affecting the AI output with a ph
 
 
 --------------------
-## References
+### References
 
 1   "VGG Image Annotator (VIA) - University of Oxford." http://www.robots.ox.ac.uk/~vgg/software/via/. Accessed 24 Oct. 2018.
 
