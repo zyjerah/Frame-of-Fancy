@@ -4,7 +4,7 @@ Artificial Intelligence is an increasingly relevant topic and though we tend to 
 
 The artistic approach I took involved the inclusion of a photo frame as a prop. The final pipeline would be as follows: to take photos including the photo frame, have an AI model recognize the photo frame and, given a “style” image, transform the inside of the photo frame and its contents via style transfer into the given style. This requires two AI models - one to find the frame, and one to transfer the style image onto the input image.
 
-![Pipeline | 50%](https://github.com/zyjerah/styleframe/blob/gh-pages/assets/example.png)
+!(https://github.com/zyjerah/styleframe/blob/gh-pages/assets/example.png)
 
 ### Image Segmentation
 
