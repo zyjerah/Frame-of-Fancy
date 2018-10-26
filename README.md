@@ -6,6 +6,10 @@ The artistic approach I took involved the inclusion of a photo frame as a prop. 
 
 !(https://github.com/zyjerah/styleframe/blob/gh-pages/assets/example.png)
 
+</footer>
+<div><img src="assets/example.png" alt="pipeline"></div>               
+</body>
+
 ### Image Segmentation
 
 To train a model to recognize the photo frame, I first had to take around 150 photos including the frame. To stay consistent I kept it one exact photo frame, at roughly the same distance from the camera in each photo, around the same time of day as to keep the lighting and contrast consistent also. To avoid too much consistency however, I made sure to keep 
