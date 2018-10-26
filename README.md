@@ -21,7 +21,7 @@ I used a pre-trained form of Neural Style Transfer to transform the inside of th
 
 Initially I had some trouble with messy outputs which I thought was the fault of the style transfer model, but it was in fact the input images. This particular style transfer model works best on highly detailed, large area spaces, where I was using smaller plain images. In my final outputs I had taken photos of the frame with much more busy interiors, detailed backgrounds and far in the distance with the frame itself close to the camera.
 
-![PhotoTest | 10%](https://github.com/zyjerah/styleframe/blob/gh-pages/assets/photoTest.png)
+![PhotoTest | 20%](https://github.com/zyjerah/styleframe/blob/gh-pages/assets/photoTests.png)
 
 ### Conclusion
 
