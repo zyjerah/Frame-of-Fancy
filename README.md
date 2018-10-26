@@ -11,13 +11,13 @@ Pipeline diagram
 To train a model to recognize the photo frame, I first had to take around 150 photos including the frame. To stay consistent I kept it one exact photo frame, at roughly the same distance from the camera in each photo, around the same time of day as to keep the lighting and contrast consistent also. To avoid too much consistency however, I made sure to keep 
 the contents of the frame vary in significant ways, as well as whether or not people were in the photo, holding the frame, or wearing the same clothing. Both consistency and variability play an important role in keeping the training both accurate and reliable.
 
-Having taken these photos I used VGG Image Annotator^1 to label the frame and its contents in each image as shown in fig.1. I labelled the outside of the frame as oppose to the inside, also including any fingers or objects obscuring a part thereof, such as to keep each label to 4 points, and potentially provide some artistic inaccuracies. I fed all of these annotated images into Mask R-CNN^2 to train my final model.
+Having taken these photos I used VGG Image Annotator to label the frame and its contents in each image as shown in fig.1. I labelled the outside of the frame as oppose to the inside, also including any fingers or objects obscuring a part thereof, such as to keep each label to 4 points, and potentially provide some artistic inaccuracies. I fed all of these annotated images into Mask R-CNN to train my final model.
 
-fig .1 VGG screenshot
+![VGG | 20%](https://github.com/zyjerah/styleframe/blob/gh-pages/assets/viaShot.png)
 
 ### Style Transfer
 
-I used a pre-trained form of Neural Style Transfer^3  to transform the inside of the frame. I found a model that takes in a mask as well as input and style image, to only stylize the white portion of the mask and leave the rest as the original input. With the models in a working pipeline all that is left is to find suitable input and style images.
+I used a pre-trained form of Neural Style Transfer to transform the inside of the frame. I found a model that takes in a mask as well as input and style image, to only stylize the white portion of the mask and leave the rest as the original input. With the models in a working pipeline all that is left is to find suitable input and style images.
 
 Initially I had some trouble with messy outputs which I thought was the fault of the style transfer model, but it was in face the input images. This particular style transfer model works best on highly detailed, large area spaces, where I was using smaller plain images. In my final outputs I had taken photos of the frame with much more busy interiors, detailed backgrounds and far in the distance with the frame itself close to the camera.
 
