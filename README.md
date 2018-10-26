@@ -19,9 +19,9 @@ Having taken these photos I used VGG Image Annotator to label the frame and its 
 
 I used a pre-trained form of Neural Style Transfer to transform the inside of the frame. I found a model that takes in a mask as well as input and style image, to only stylize the white portion of the mask and leave the rest as the original input. With the models in a working pipeline all that is left is to find suitable input and style images.
 
-Initially I had some trouble with messy outputs which I thought was the fault of the style transfer model, but it was in face the input images. This particular style transfer model works best on highly detailed, large area spaces, where I was using smaller plain images. In my final outputs I had taken photos of the frame with much more busy interiors, detailed backgrounds and far in the distance with the frame itself close to the camera.
+Initially I had some trouble with messy outputs which I thought was the fault of the style transfer model, but it was in fact the input images. This particular style transfer model works best on highly detailed, large area spaces, where I was using smaller plain images. In my final outputs I had taken photos of the frame with much more busy interiors, detailed backgrounds and far in the distance with the frame itself close to the camera.
 
-Photos of failures vs working
+![PhotoTest | 20%](https://github.com/zyjerah/styleframe/blob/gh-pages/assets/photoTest.png)
 
 ### Conclusion
 
