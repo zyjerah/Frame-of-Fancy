@@ -13,7 +13,7 @@ the contents of the frame vary in significant ways, as well as whether or not pe
 
 Having taken these photos I used VGG Image Annotator to label the frame and its contents in each image as shown in fig.1. I labelled the outside of the frame as oppose to the inside, also including any fingers or objects obscuring a part thereof, such as to keep each label to 4 points, and potentially provide some artistic inaccuracies. I fed all of these annotated images into Mask R-CNN to train my final model.
 
-fig .1 VGG screenshot
+![VGG]({{ https://zyjerah.github.io/styleframe/ }}/assets/viaShot.png)
 
 ### Style Transfer
 
