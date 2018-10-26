@@ -34,8 +34,8 @@ This technique is an interesting entrance into affecting the AI output with a ph
 --------------------
 ### References
 
-1   "VGG Image Annotator (VIA) - University of Oxford." http://www.robots.ox.ac.uk/~vgg/software/via/. Accessed 24 Oct. 2018.
+1. "VGG Image Annotator (VIA) - University of Oxford." http://www.robots.ox.ac.uk/~vgg/software/via/. Accessed 24 Oct. 2018.
 
-2   "GitHub - matterport/Mask_RCNN: Mask R-CNN for object detection ...." https://github.com/matterport/Mask_RCNN. Accessed 24 Oct. 2018.
+2. "GitHub - matterport/Mask_RCNN: Mask R-CNN for object detection ...." https://github.com/matterport/Mask_RCNN. Accessed 24 Oct. 2018.
 
-3   "GitHub - titu1994/Neural-Style-Transfer: Keras Implementation of ...." https://github.com/titu1994/Neural-Style-Transfer. Accessed 24 Oct. 2018.
+3. "GitHub - titu1994/Neural-Style-Transfer: Keras Implementation of ...." https://github.com/titu1994/Neural-Style-Transfer. Accessed 24 Oct. 2018.
