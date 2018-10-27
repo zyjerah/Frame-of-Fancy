@@ -1,5 +1,3 @@
-# Frame of Fancy
-
 Artificial Intelligence is an increasingly relevant topic and though we tend to focus on the technical advantages of it, I am incredibly interested in the artistic application of machine learning techniques. As such, I have set out to combine Artificial Intelligence and photography as art, and have created a machine learning technique to achieve this.
 
 The artistic approach I took involved the inclusion of a photo frame as a prop. The final pipeline would be as follows: to take photos including the photo frame, have an AI model recognize the photo frame and, given a “style” image, transform the inside of the photo frame and its contents via style transfer into the given style. This requires two AI models - one to find the frame, and one to transfer the style image onto the input image.
