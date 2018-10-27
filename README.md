@@ -1,4 +1,4 @@
-# [This paper]
+# Frame of Fancy
 
 Artificial Intelligence is an increasingly relevant topic and though we tend to focus on the technical advantages of it, I am incredibly interested in the artistic application of machine learning techniques. As such, I have set out to combine Artificial Intelligence and photography as art, and have created a machine learning technique to achieve this.
 
